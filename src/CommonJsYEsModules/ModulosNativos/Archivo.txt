@@ -1,0 +1,64 @@
+Contenido en archivo .txt
+Modulo nativo de JavaScript
+
+const fs = require('fs');
+
+const data = fs.readFileSync('Archivo.txt', 'utf8');
+console.log(data);
+
+Que es 'fs'
+Sirve para leer, escribir, crear y borrar archivos o carpetas.
+import fs from 'fs';
+
+// Leer un archivo
+const contenido = fs.readFileSync('archivo.txt', 'utf-8');
+console.log(contenido);
+
+// Escribir un archivo
+fs.writeFileSync('nuevo.txt', 'Hola mundo');
+Leer archivos .txt, .json
+
+Guardar logs
+
+Subir archivos
+
+Manejar carpetas
+
+
+Que es 'path'
+Sirve para trabajar con rutas de archivos de forma segura (Windows, Linux, macOS).
+
+import path from 'path';
+
+const ruta = path.join('carpeta', 'archivo.txt');
+console.log(ruta);
+
+const info = path.parse('/home/user/file.js');
+console.log(info);
+
+Unir rutas correctamente
+
+Obtener nombre/extensión de archivos
+
+Evitar errores entre sistemas operativos
+
+
+HTPP-------------------------
+Sirve para crear servidores web (backend básico).
+
+import http from 'http';
+
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hola desde Node');
+});
+
+server.listen(3000, () => {
+  console.log('Servidor corriendo en http://localhost:3000');
+});
+
+Crear APIs simples
+
+Servidores web sin frameworks
+
+Entender cómo funciona Express internamente
