@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node js pakage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnriBr14/Node-Js.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Enrique Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnriBr14/Node-Js/issues"
+  },
+  "homepage": "https://github.com/EnriBr14/Node-Js#readme"
+}
